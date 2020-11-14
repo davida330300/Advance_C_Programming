@@ -1,0 +1,9 @@
+prepend(value)        -> Add a node in the beginning
+append(value)         -> Add a node in the end
+pop()                 -> Remove a node from the end
+popFirst()            -> Remove a node from the beginning
+head()                -> Return the first node
+tail()                -> Return the last node
+remove(Node)          -> Remove Node from the list
+
+insert(Node, value)

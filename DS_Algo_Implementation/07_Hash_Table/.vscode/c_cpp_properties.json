@@ -1,0 +1,32 @@
+{
+    "configurations": [
+        {
+            "name": "MinGW",
+            "intelliSenseMode": "clang-x64",
+            "includePath": [
+                "${workspaceRoot}/**",
+                "C://MinGW//lib//gcc//mingw32//8.2.0//include//c++//*",
+                "C://MinGW//lib//gcc//mingw32//8.2.0//include",
+                "${workspaceFolder}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "browse": {
+                "path": [
+                    "C://MinGW//lib//gcc//mingw32//8.2.0//include//c++",
+                    "C://MinGW//lib//gcc//mingw32//8.2.0//include",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "compilerPath": "C:/Program Files (x86)/Microsoft Visual Studio/2017/Professional/VC/Tools/MSVC/14.16.27023/bin/Hostx64/x64/cl.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,16 @@
+InitStack()
+DestoryStack()
+ClearStack()
+push() – Insert an element at one end of the stack called top.
+pop() – Remove and return the element at the top of the stack, if it is not empty.
+peek() – Return the element at the top of the stack without removing it, if the stack is not empty.
+size() – Return the number of elements in the stack.
+isEmpty() – Return true if the stack is empty, otherwise return false.
+isFull() – Return true if the stack is full, otherwise return false.
+
+FILO
+用array 和linkedlist 實作
+
+application
+undo
+recursion ex: DFS-> call stack
