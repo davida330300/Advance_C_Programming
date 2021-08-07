@@ -1,7 +1,13 @@
-#include "apue.h"
-#include "stdio.h"
+#include <stdio.h>
+#include <unistd.h>
+#define NNN 5
+int main(void)
+{
+    for (int i = 0; i < NNN; i++) {
+        fork();
+        printf("-");                         
+    }
 
-int main(int argc, char *argv[]) {
-   printf("hello happy world\n");
-   return 0;
+    fflush(stdout);
+    return 0;
 }
